@@ -2,9 +2,73 @@
 <html>
 <head>
 	<title>SKYWorld</title>
+	<style>
+		body {
+			margin : 0;
+			font-family: Arial;
+			background: #f4f4f4;
+		}
+		
+		header {
+			background: #333;
+			color: white;
+			padding: 15px;
+			text-align: center;
+		}
+		
+		nav a {
+			color: white;
+			margin: 10px;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		
+		nav a:hover {
+			color: yellow;
+		}
+		
+		.container {
+			color: yellow;
+		}
+		
+		button {
+			padding:10px 20px;
+			background: blue:
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		button: hover {
+			background: darkblue;
+		}
+	</style>
+	
 </head>
+	
 <body>
-	<h1>Welcome</h1>
-	<p>Where the Mind is without fear</p>
+<header>
+	<h1>Welcome to the SKYWorld</h1>
+</header>
+
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+
+	<div class="container'>
+	<p>Where the Mind is without fear!</p>
+
+	<button onclick="showMessage()">ClickMe</button>
+	</div>
+
+	<script>
+		function showMessage() {
+			alert("You clicked the button!");
+		}
+	</script>
+	
 </body>
 </html>
